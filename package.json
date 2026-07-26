@@ -1,0 +1,23 @@
+{
+  "name": "omyohan_blog",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "vite --config frontend/vite.config.mjs",
+    "build": "vite build --config frontend/vite.config.mjs",
+    "preview": "vite preview --config frontend/vite.config.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vue": "^3.5.40",
+    "vue-router": "^4.6.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "@vitejs/plugin-vue": "^6.0.8",
+    "tailwindcss": "^4.3.3",
+    "vite": "^7.3.6"
+  }
+}
